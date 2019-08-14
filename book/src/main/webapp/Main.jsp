@@ -4,16 +4,16 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Insert title here</title>
+		<title>향기로운 글자 서향</title>
 		<link rel="stylesheet" href="resources/css/style.css?after">
 	</head>
 	<body>
 		<div id="roof">
 			<ul class="rooflist">
 				<li class="roofvalue1"><button type="button"
-						onclick="location.href=''" class="roofvalue1">로그인</button></li>
+						onclick="location.href='login.jsp'" class="roofvalue1">로그인</button></li>
 				<li class="roofvalue1"><button type="button"
-						onclick="location.href=''" class="roofvalue1">회원가입</button></li>
+						onclick="location.href='sign_up.jsp'" class="roofvalue1">회원가입</button></li>
 				<li class="roofvalue1"><button type="button"
 						onclick="location.href=''" class="roofvalue1">고객센터</button></li>
 				<li class="roofvalue1"><button type="button"
@@ -47,11 +47,11 @@
 		</div>
 		<div id="category">
 			<ul class="categorymenu">
-				<li class="categoryvalue">국내 도서</li>
-				<li class="categoryvalue">해외 도서</li>
-				<li class="categoryvalue">중고 게시판</li>
-				<li class="categoryvalue">서점 위치</li>
-				<li class="categoryvalue">고객 센터</li>
+				<li class="categoryvalue"><a href="" style="color: white; text-decoration: none;">국내도서</a></li>
+				<li class="categoryvalue"><a href="" style="color: white; text-decoration: none;">해외 도서</a></li>
+				<li class="categoryvalue"><a href="" style="color: white; text-decoration: none;">중고 게시판</a></li>
+				<li class="categoryvalue"><a href="" style="color: white; text-decoration: none;">서점 위치</a></li>
+				<li class="categoryvalue"><a href="" style="color: white; text-decoration: none;">고객 센터</a></li>
 			</ul>
 		</div>
 		<div id="middle">
