@@ -23,7 +23,7 @@
 		<hr class="roofbottom">
 		<div id="top">
 			<div id="title">
-				<img src="resources/img/title.png">
+				<a href="Main.jsp" style="text-decoration: none"><img src="resources/img/title.png"></a>
 			</div>
 			<div id="search">
 				<input type="text" class="srcbar" name="srcbar" id="srcbar"
@@ -34,15 +34,15 @@
 			</div>
 			<div class="word">
 				<ul class="hotword">
-					<li class="hotvalue"><a href="">충격 잼박이형</a></li>
-					<li class="hotvalue"><a href="">오늘은 여기까지</a></li>
-					<li class="hotvalue"><a href="">CSS극혐</a></li>
-					<li class="hotvalue"><a href="">피곤하다</a></li>
+					<li class="hotvalue"><a href="">검색어1</a></li>
+					<li class="hotvalue"><a href="">검색어2</a></li>
+					<li class="hotvalue"><a href="">검색어3</a></li>
+					<li class="hotvalue"><a href="">검색어4</a></li>
 				</ul>
 			</div>
 			<div id="ad">
-				<!-- 광고 넣을 부분 -->
-				광고
+				<!-- 이달의 추천책 -->
+				이달의 책
 			</div>
 		</div>
 		<div id="category">
