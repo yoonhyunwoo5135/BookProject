@@ -13,5 +13,7 @@ public class Sign_upDAO {
 	public void insert(Sign_upDTO sign_upDTO){
 		my.insert("signDAO.insert", sign_upDTO);
 	}
-	
+	public Sign_upDTO select(Sign_upDTO sign_upDTO) {
+		return my.selectOne("signDAO.select", sign_upDTO);
+	}
 }
